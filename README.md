@@ -2,7 +2,7 @@
 
 a weather pwa application
 
-[https://www.tjwyz.com](https://www.tjwyz.com)
+[https://www.tjwyz.com/weather](https://www.tjwyz.com/weather)
 
 ## Usage
 

@@ -67,8 +67,5 @@ app.get('/api', function(req, res) {
 	});
 });
 
-
-
-
 http.createServer(app).listen(80);
 https.createServer(option,app).listen(443);

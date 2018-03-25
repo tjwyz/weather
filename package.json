@@ -2,9 +2,9 @@
     "name": "weather",
     "version": "0.0.1",
     "description": "a weather pwa application",
-    "main": "1.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "init": "pm2 restart app/index.js && pack",
+        "start": "pack ./pack.config.js"
     },
     "author": "tjwyz",
     "license": "MIT",

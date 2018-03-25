@@ -6,6 +6,11 @@ const fs = require("fs");
 const express = require('express');
 const app = express();
 
+const option = {
+    key:fs.readFileSync('./www.tjwyz.com.key'),
+    cert:fs.readFileSync('./www.tjwyz.com.crt')
+};
+
 // app.use('/static', express.static( path.join(__dirname, '/static') ));
 app.use('/static', express.static(path.join(__dirname, '../public')));
 
@@ -66,3 +71,4 @@ app.get('/api', function(req, res) {
 
 
 http.createServer(app).listen(80);
+https.createServer(option,server).listen(443);

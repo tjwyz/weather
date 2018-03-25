@@ -2,8 +2,9 @@
 
 a weather pwa application
 
-## Usage
+[https://www.tjwyz.com](https://www.tjwyz.com)
 
+## Usage
 
 ```
 npm install
@@ -21,9 +22,9 @@ npm run init
 you can write pack.config.js like this
 
 ```
-	module.exports = {
-		src:'./src',
-		output:'./public'
-	}
+module.exports = {
+	src:'./src',
+	output:'./public'
+}
 ```
 

@@ -13,7 +13,7 @@ const option = {
 
 // app.use('/static', express.static( path.join(__dirname, '/static') ));
 app.use('/static', express.static(path.join(__dirname, '../public')));
-app.use('/static', express.static(path.join(__dirname, '../static')));
+app.use('/', express.static(path.join(__dirname, '../static')));
 
 app.get('/', function(req, res) {
 	res.set('Content-Type', 'text/html');

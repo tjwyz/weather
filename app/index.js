@@ -15,7 +15,7 @@ const option = {
 app.use('/static', express.static(path.join(__dirname, '../public')));
 app.use('/', express.static(path.join(__dirname, '../static')));
 
-app.get('/', function(req, res) {
+app.get('/weather', function(req, res) {
 	res.set('Content-Type', 'text/html');
 	var html = fs.readFileSync(path.join(__dirname, '../public/index.html'),{encoding:'utf8'});
 	res.send(html);

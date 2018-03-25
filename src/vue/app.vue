@@ -103,7 +103,7 @@
     background-position: 100% 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url(https://weatherpwa.baidu.com/images/backgrounds/clear-day-0c7813dd.jpg);
+    background-image: url('/img/clear-day.jpg');
 }
 
 </style>

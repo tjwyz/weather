@@ -99,7 +99,7 @@
         background-position: 100% 0;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-image: url('https://weatherpwa.baidu.com/images/backgrounds/clear-day-0c7813dd.jpg');
+        background-image: url('/img/clear-day.jpg');
     }
     .wa-sg-weather-update{
         font-size: .13rem;
@@ -119,7 +119,7 @@
         width: 14px;
         height: 14px;
         display: inline-block;
-        background: url('https://weatherpwa.baidu.com/images/switch-city-f5efc31f.png') no-repeat;
+        background: url('/img/switch-city.png') no-repeat;
         background-size: 100%;
         vertical-align: middle;
         margin-left: 4px;
